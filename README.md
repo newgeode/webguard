@@ -1,4 +1,4 @@
-# NewGeode/WebGuard
+# WebGuard - All-in-One Security Middleware for Laravel
 
 **Lightweight Laravel security middleware for protecting applications against suspicious traffic, unwanted requests, automated bots, and common web attacks.**
 
