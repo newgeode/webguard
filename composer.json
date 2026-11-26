@@ -1,0 +1,44 @@
+{
+    "name": "newgeode/webguard",
+    "description": "Lightweight Laravel security middleware for IP restrictions, trusted proxies, HTTPS enforcement, bot traps, Panic Shield, and input sanitization.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "security",
+        "middleware",
+        "http",
+        "https",
+        "enforcement",
+        "bot-traps",
+        "panic-shield",
+        "ip-filter",
+        "trusted-proxies",
+        "rate-limit",
+        "sanitize"
+    ],
+    "authors": [
+        {
+            "name": "New Geode"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/http": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/cache": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NewGeode\\WebGuard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NewGeode\\WebGuard\\WebGuardServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
